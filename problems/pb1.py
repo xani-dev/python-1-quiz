@@ -1,7 +1,7 @@
-def replace_spaces():
-    pass #TODO:
-
-
+def replace_spaces(string, char):
+    sentence_updated = string.replace(' ', char)
+    return(sentence_updated)
+    
 
 # sentence = "Test  This is a test   Testing "
 # sentence2 = pb1.replace_spaces(sentence, "_")
